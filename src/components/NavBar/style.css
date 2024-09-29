@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin-right: 3rem;
+    box-shadow: 0 0 0 1px red;
+}
+
+
+li{
+    margin: 1rem;
+    cursor: pointer;
+}
