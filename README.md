@@ -32,8 +32,8 @@ Este proyecto utiliza las siguientes dependencias:
   }
 }
 
-Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-Contacto
-Si tienes alguna pregunta o comentario, no dudes en contactarme a través de joangorrita01@gmail.com
+## Contacto
+Si tienes alguna pregunta o comentario, no dudes en contactarme a través de [joangorrita01@gmail.com](joangorrita01@gmail.com).
