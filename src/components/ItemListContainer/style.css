@@ -1,13 +1,95 @@
-.container{
-    display: flex;
-    height: auto;
-    width: 100vw;
-    flex-direction: row;
-    box-shadow: 0 0 0 1px green;
+/* Item */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
-.card{
-    width: 25%;
-    height: 350px;
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 12px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ItemLIst */
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+.item-list .card {
+    flex: 1 1 calc(25% - 32px); 
+    max-width: calc(25% - 32px); 
+    box-sizing: border-box;
+}
+
+.item-list > div {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    color: #666;
+}
+
+
+/* ItemLIstContainer */
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #96b6e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.error {
+    text-align: center;
+    color: red;
 }
 

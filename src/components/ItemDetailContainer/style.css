@@ -1,0 +1,81 @@
+/* ItemDetailContainer */
+
+.item-detail {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.item-detail h2 {
+    text-align: center; 
+    color: #343a40; 
+    margin-bottom: 20px; 
+}
+
+.item-detail p {
+    font-size: 16px; 
+    color: #495057; 
+    line-height: 1.5; 
+}
+
+.item-detail img {
+    max-width: 100%; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+}
+
+.button {
+    display: inline-block; 
+    padding: 10px 15px; 
+    background-color: #007BFF; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+
+/* ItemDetail */
+
+.itemInfo {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.itemInfo h3 {
+    font-size: 24px; 
+    color: #343a40; 
+    margin-bottom: 10px;
+}
+
+.itemInfo p {
+    font-size: 18px; 
+    color: #495057; 
+    margin: 8px 0; 
+}
+
+.itemInfo .stock,
+.itemInfo .precio {
+    font-weight: bold; /* Negrita para stock y precio */
+}
+
+.itemInfo img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+}
+
+
+.counter-container {
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: center; 
+}
